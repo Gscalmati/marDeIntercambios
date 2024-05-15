@@ -16,7 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from Aplicaciones.GestionUsuarios.RegistrarUsuario.views import *
 
-urlpatterns = [ #Comento para ver que onda
+urlpatterns = [ 
+    path('', base),
     path('admin/', admin.site.urls),
+    path('registro/', registro),
+    path('registro/exitoRegistro/', exito_registro, name='exito_registro'),
+   
 ]
