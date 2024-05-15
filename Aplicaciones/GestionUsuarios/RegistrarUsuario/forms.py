@@ -10,11 +10,7 @@ class UsuarioRegistradoForm(forms.ModelForm):
 
     email = forms.CharField(label='Correo electrónico', required=False) #Saco los required del imput email, no me quedó otra que colocarlo aparte
     contraseña2 = forms.CharField(label='Confirmar contraseña', widget=forms.PasswordInput(), required=False) #creo un campo contraseña2 para la confirmación
-    fecha_nacimiento = forms.DateField(
-        label='Fecha de nacimiento',
-        widget=forms.DateInput(attrs={'type': 'date'}),
-        required=False
-    )
+
     class Meta:
         model = UsuarioRegistrado
         fields = ['email', 'contraseña', 'dni', 'fecha_nacimiento'] #Creo el formulario con los campos que necesito(obvio que el modelo tiene que tener los campos)
@@ -79,7 +75,6 @@ class UsuarioRegistradoForm(forms.ModelForm):
         #age = today.year - fecha_nacimiento.year - ((today.month, today.day) < (fecha_nacimiento.month, fecha_nacimiento.day))
         if age < 18:
             raise ValidationError("Para registrarse debe ser mayor a 18 años")
-        
         return fecha_nacimiento
 
     # Deshabilito las demás validaciones que vienen por defecto, para poner las propias

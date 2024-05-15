@@ -13,7 +13,7 @@
 <body>
     <h1>Registro de Usuario</h1>
     <form id="registro-form" method="post" novalidate>
-        {% csrf_token %}
+        {% csrf_token %} <!--Token que genera Django por seguridad-->
         <div>
             {{ form.email.label_tag }}
             {{ form.email }}

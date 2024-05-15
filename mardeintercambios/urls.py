@@ -21,7 +21,7 @@ from Aplicaciones.GestionUsuarios.RegistrarUsuario.views import *
 urlpatterns = [ 
     path('', base),
     path('admin/', admin.site.urls),
-    path('registro/', registro),
+    path('registro/', registro, name='registro'),
     path('registro/exitoRegistro/', exito_registro, name='exito_registro'),
    
 ]
