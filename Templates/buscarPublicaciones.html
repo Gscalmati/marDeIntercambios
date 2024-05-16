@@ -15,8 +15,9 @@
     {% if resultados %}
         <ul>
             {% for publicacion in resultados %}
-                <li>{{ publicacion.titulo }}</li>
-                <p>{{ publicacion.contenido }}</p>
+                <li>{{ publicacion.nombre }}</li>
+                <p>{{ publicacion.descripcion }}</p>
+                <br>
             {% endfor %}
         </ul>
     {% else %}

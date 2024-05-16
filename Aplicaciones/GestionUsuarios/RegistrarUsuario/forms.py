@@ -3,7 +3,7 @@ from django import forms
 from django.core.exceptions import ValidationError
 from .models import UsuarioRegistrado
 from datetime import date
-from dateutil.relativedelta import relativedelta # pip install python-dateutil(para calcular la fecha como en java)
+##from dateutil.relativedelta import relativedelta # pip install python-dateutil(para calcular la fecha como en java)
 
 #comienzo a crear mi formulario personalizado heredando el formulario por defecto que tiene Django(ModelForm)
 class UsuarioRegistradoForm(forms.ModelForm):
