@@ -24,4 +24,5 @@ urlpatterns = [
     path('registro/', registro),
     path('registro/exitoRegistro/', exito_registro, name='exito_registro'),
    
+    path('publicaciones/', include('Aplicaciones.BuscarPublicaciones.urls'))
 ]
