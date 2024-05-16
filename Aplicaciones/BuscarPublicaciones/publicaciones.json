@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "nombre": "Velero Clásico",
+        "año": 1965,
+        "valor_usd": 25000,
+        "descripcion": "Hermoso velero de madera restaurado, ideal para navegación tranquila y regatas de vela."
+    },
+    {
+        "id": 2,
+        "nombre": "Yate de Lujo",
+        "año": 2018,
+        "valor_usd": 500000,
+        "descripcion": "Elegante yate de lujo con todas las comodidades modernas, incluyendo jacuzzi, cine en casa y camarotes de lujo."
+    },
+    {
+        "id": 3,
+        "nombre": "Bote de Pesca",
+        "año": 2005,
+        "valor_usd": 15000,
+        "descripcion": "Bote robusto y confiable, perfecto para la pesca deportiva en alta mar. Equipado con sillas de pesca y nevera."
+    },
+    {
+        "id": 4,
+        "nombre": "Lancha Deportiva",
+        "año": 2019,
+        "valor_usd": 35000,
+        "descripcion": "Lancha rápida y ágil, ideal para deportes acuáticos y paseos de alta velocidad."
+    },
+    {
+        "id": 5,
+        "nombre": "Catamarán Familiar",
+        "año": 2010,
+        "valor_usd": 75000,
+        "descripcion": "Espacioso catamarán con capacidad para la familia, perfecto para vacaciones en el mar y días de navegación relajados."
+    },
+    {
+        "id": 6,
+        "nombre": "Barco de Vela Ligera",
+        "año": 2015,
+        "valor_usd": 10000,
+        "descripcion": "Pequeño y ágil barco de vela, ideal para aprender a navegar y regatas en aguas costeras."
+    },
+    {
+        "id": 7,
+        "nombre": "Barco de Pesca Deportiva",
+        "año": 2008,
+        "valor_usd": 45000,
+        "descripcion": "Barco equipado para la pesca deportiva en alta mar, con sillas de pesca, equipos de navegación y camarotes cómodos."
+    },
+    {
+        "id": 8,
+        "nombre": "Bote Inflable",
+        "año": 2020,
+        "valor_usd": 5000,
+        "descripcion": "Pequeño bote inflable para uso recreativo y transporte en aguas tranquilas. Fácil de transportar y almacenar."
+    },
+    {
+        "id": 9,
+        "nombre": "Canoa Tradicional",
+        "año": 1978,
+        "valor_usd": 2000,
+        "descripcion": "Canoa de madera hecha a mano, perfecta para explorar ríos y lagos tranquilos en contacto con la naturaleza."
+    },
+    {
+        "id": 10,
+        "nombre": "Bote de Remos",
+        "año": 2002,
+        "valor_usd": 800,
+        "descripcion": "Pequeño bote de remos para paseos tranquilos y ejercicio físico en lagos y estanques."
+    },
+    {
+        "id": 11,
+        "nombre": "Yate Familiar",
+        "año": 2016,
+        "valor_usd": 300000,
+        "descripcion": "Yate espacioso y lujoso para toda la familia, con varias cubiertas, camarotes privados y áreas de entretenimiento."
+    },
+    {
+        "id": 12,
+        "nombre": "Bote de Vela Infantil",
+        "año": 2010,
+        "valor_usd": 500,
+        "descripcion": "Pequeño bote de vela diseñado para niños y aprendices, ideal para introducir a los más jóvenes en el mundo de la navegación."
+    },
+    {
+        "id": 13,
+        "nombre": "Barco de Expedición",
+        "año": 2000,
+        "valor_usd": 100000,
+        "descripcion": "Barco robusto y confiable diseñado para expediciones en alta mar, equipado con todo lo necesario para largos viajes."
+    },
+    {
+        "id": 14,
+        "nombre": "Bote de Rescate",
+        "año": 2012,
+        "valor_usd": 15000,
+        "descripcion": "Bote especializado en operaciones de rescate en el mar, con capacidad para transportar tripulaciones y víctimas de forma segura."
+    },
+    {
+        "id": 15,
+        "nombre": "Barcaza de Transporte",
+        "año": 2005,
+        "valor_usd": 50000,
+        "descripcion": "Barcaza resistente diseñada para transportar carga y equipos en ríos y canales, con gran capacidad de carga y estabilidad."
+    },
+    {
+        "id": 16,
+        "nombre": "Bote a Motor",
+        "año": 2019,
+        "valor_usd": 20000,
+        "descripcion": "Bote rápido y potente con motor fuera de borda, ideal para deportes acuáticos y exploración costera."
+    },
+    {
+        "id": 17,
+        "nombre": "Canoa Polinesia",
+        "año": 2008,
+        "valor_usd": 3000,
+        "descripcion": "Canoa tradicional polinesia diseñada para travesías largas en el océano, con capacidad para varias personas y equipo de navegación."
+    },
+    {
+        "id": 18,
+        "nombre": "Bote de Carreras",
+        "año": 2014,
+        "valor_usd": 25000,
+        "descripcion": "Bote de competición diseñado para regatas de alta velocidad, con casco ligero y motor potente."
+    },
+    {
+        "id": 19,
+        "nombre": "Barco de Crucero",
+        "año": 2017,
+        "valor_usd": 150000,
+        "descripcion": "Barco espacioso y lujoso diseñado para cruceros de larga distancia, con camarotes cómodos y áreas de entretenimiento."
+    },
+    {
+        "id": 20,
+        "nombre": "Bote de Pesca con Mosca",
+        "año": 2006,
+        "valor_usd": 12000,
+        "descripcion": "Bote diseñado específicamente para la pesca con mosca en ríos y arroyos"
+    }
+]

@@ -1,0 +1,26 @@
+<!-- buscar_publicaciones.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultados de Búsqueda</title>
+</head>
+<body>
+    <h1>Resultados de Búsqueda</h1>
+    <form method="get" action="{% url 'buscar_publicaciones' %}">
+        <input type="text" name="q" placeholder="Buscar publicaciones">
+        <button type="submit">Buscar</button>
+    </form>
+    {% if resultados %}
+        <ul>
+            {% for publicacion in resultados %}
+                <li>{{ publicacion.titulo }}</li>
+                <p>{{ publicacion.contenido }}</p>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No se encontraron resultados.</p>
+    {% endif %}
+</body>
+</html>
